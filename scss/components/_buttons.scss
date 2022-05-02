@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.btn {
+    transition: 0.4s ease-in-out;
+}
+.btn:focus{
+    box-shadow: none !important;
+    }
+.btn:hover {
+    background-color: $black;
+    color: $primary;
+    transition: 0.4s ease-in-out;
+}

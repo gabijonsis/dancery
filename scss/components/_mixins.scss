@@ -1,0 +1,6 @@
+@use "../custom" as *;
+
+//GRADIENT MIXIN
+@mixin gradient {
+    background: linear-gradient($primary, $black);
+}

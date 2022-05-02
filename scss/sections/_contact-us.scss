@@ -1,0 +1,89 @@
+@use '../custom' as *;
+
+.contact-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.contact-box-bg {
+    background-color: $primary;
+}
+
+.contact-box {
+
+    &__info{
+        border: 1px solid $primary;
+
+        width: 250px;
+        transition: 0.5s ease-in-out;
+        
+        &--title {
+            padding: 3px;
+            color: $black;
+            text-decoration: none;
+            margin: 0;
+            font-family: var(--bs-body-font-family);
+
+        }
+
+        
+        &--subtitle {
+            padding: 3px;
+            margin: 0;
+            color: $black;
+            font-family: var(--bs-body-font-family);
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: none;
+
+    .contact-box{
+
+        &__info{
+            background-color: $black;
+            transition: 0.3s ease-in-out;
+
+            p {
+                color: $primary;
+                transition: 0.3s ease-in-out;
+                text-decoration:none;
+            }
+        }
+        
+
+    }
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid $white;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: $white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.error{
+    color: $primary;
+}

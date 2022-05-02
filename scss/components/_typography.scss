@@ -1,0 +1,102 @@
+@use '../custom' as *;
+
+.display-3 {
+    font-size: 2rem;
+    color: $primary;
+    font-family: 'Space Mono', monospace;
+    
+    @include media-breakpoint-up(lg) {
+        font-size: 4rem;
+        display: inline-block;
+    }
+
+    &--title {
+        font-size: 2rem;
+        color: $primary;
+        font-family: 'Space Mono', monospace;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 4rem;
+            display: inline-block;
+        }
+    }
+    &--title-2 {
+        font-size: 2rem;
+        color: $black;
+        font-family: 'Space Mono', monospace;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 4rem;
+            display: inline-block;
+        }
+    }
+}
+
+
+// HEADING LINE
+.heading-line {
+    content: "";
+    width: 15rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+
+    @include media-breakpoint-up(lg) {
+        width: 30rem;
+    }
+}
+
+.heading-line-2 {
+    content: "";
+    width: 15rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $black;
+
+    @include media-breakpoint-up(lg) {
+        width: 30rem;
+    }
+}
+
+//STUDIO DESCRIPTION
+.studio-description {
+    font-size: 1.2rem;
+    -webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	line-height: 30px;
+    color: #000;
+    background-color: #e9c62c;
+    font-family: 'Space Mono', monospace;
+}
+
+
+//H3
+h3 {
+    font-family: 'Space Mono', monospace;
+    background-color: $black;
+    color: $primary;
+}
+
+//H6
+h6 {
+    font-family: 'Space Mono', monospace;
+    color: $gray-400;
+    font-size: 0.8em;
+}
+
+//p
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+//SCHEDULE TABLE
+.table {
+    font-family: 'Space Mono', monospace;
+}
+
+//BUTTON
+button {
+    font-family: 'Space Mono', monospace;
+}

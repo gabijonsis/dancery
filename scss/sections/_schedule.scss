@@ -1,0 +1,13 @@
+@use '../custom'as *;
+
+.schedule {
+    background-color: $primary;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .table {
+
+        background-color: $black;
+        color: $primary;
+    }
+}

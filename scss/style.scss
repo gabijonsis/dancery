@@ -1,0 +1,16 @@
+@use 'custom';
+
+//IMPORT THE COMPONENTS
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//IMPORT THE SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/our-studio';
+@use 'sections/dance-styles';
+@use 'sections/teachers';
+@use 'sections/schedule';
+@use 'sections/contact-us';
+@use 'sections/footer';

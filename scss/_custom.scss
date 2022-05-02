@@ -1,0 +1,40 @@
+//THEME COLOURS
+$yellow:  #e9c62c;
+
+//GRAY SCALE
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary: $yellow;
+
+//BUTTON BORDER
+$btn-border-radius: 0;
+
+
+//NAVBAR TOGGLER COLOUR
+$navbar-dark-color:                 $white;
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color:  $white;
+
+//FORM COLOR
+$input-bg:                              #ffffff00;
+$input-border-radius:                   0;
+$input-focus-border-color:              $primary;
+$input-color:                           $white;
+$input-plaintext-color:                 $white;
+$input-placeholder-color:               $gray-700;
+
+
+
+
+//IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
