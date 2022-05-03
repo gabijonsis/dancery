@@ -11232,6 +11232,14 @@ button {
   padding: 0 0.7rem;
 }
 .menu img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+@media (min-width: 992px) {
+  .menu img {
+    width: 250px;
+  }
 }
 
 .navbar-nav a {
