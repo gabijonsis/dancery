@@ -11470,6 +11470,7 @@ select:-webkit-autofill:focus {
 .footer img {
   width: 200px;
   margin-right: 15px;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
