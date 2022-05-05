@@ -1,7 +1,7 @@
 @use "../custom" as *;
 
 .image-container {
-    background: linear-gradient(rgb(37 96 205 / 56%), rgba(145, 152, 229, 0.18)), url(assets/images/studio-copy.jpg);
+    background: linear-gradient(rgb(37 96 205 / 56%), rgba(145, 152, 229, 0.18)), url(/assets/images/studio-copy.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
