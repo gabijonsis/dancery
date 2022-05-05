@@ -11463,12 +11463,11 @@ select:-webkit-autofill:focus {
   color: #e9c62c;
 }
 
-.footer-line {
+.footer .footer-line {
   background-color: #e9c62c;
   padding: 1px;
 }
-
-img, svg {
+.footer img {
   width: 200px;
   margin-right: 15px;
 }
