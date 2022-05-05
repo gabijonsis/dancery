@@ -11195,13 +11195,19 @@ textarea.form-control-lg {
 }
 
 .studio-description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  line-height: 30px;
+  line-height: 25px;
   color: #000;
   background-color: #e9c62c;
   font-family: "Space Mono", monospace;
+}
+@media (min-width: 992px) {
+  .studio-description {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
 }
 
 h3 {
