@@ -1,3 +1,3 @@
 # dancery
-First website
-See at 
+
+See at https://gabijonsis.github.io/dancery/
